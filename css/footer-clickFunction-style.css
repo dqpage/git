@@ -1,0 +1,39 @@
+@charset "utf-8";
+ul,li {
+	margin:0px;
+	padding:0px;
+}
+.focus{
+	display:none;
+	transition:all ease-out 0.2s;
+	width:22px;
+}
+.focus-toggle {
+	display:inline-block;
+	transition:all 0.4s ease-in;
+	-webkit-transition:all 0.4s ease-in;
+	-moz-transition:all 0.4s ease-in;
+}
+.focus-select {
+	display:inline-block;
+}
+ul.foo_nav li:first-child {
+	margin-right:0px;
+}
+
+ul.foo_nav li:last-child {
+	margin-left:0px;
+}
+
+.focus i {
+	margin-right:0px;
+}
+#nav1 i, #nav2 i, #nav3 i, #nav4 i {
+	margin-right:0px;
+}
+#nav5 {
+	cursor:pointer;
+}
+
+
+

@@ -1,0 +1,6 @@
+$(function() {$('#about').hover(function(){$('#navpara').animate({right:'-50px'},200);$('#navpara').css({position:'absolute',});});$('#about').mouseleave(function(){$('#navpara').animate({right:'-800px'},200);});$('#contact').hover(function(){$('#navpara2').animate({right:'-50px'},200);$('#navpara2').css({position:'absolute'});});$('#contact').mouseleave(function(){$('#navpara2').animate({right:'-800px'},200);});$('#blog').hover(function(){$('#navpara4').animate({left:'-50px'},200);$('#navpara4').css({position:'absolute',});});$('#blog').mouseleave(function(){$('#navpara4').animate({left:'-800px'},200);});$('#work').hover(function(){$('#navpara3').animate({left:'-50px'},200);$('#navpara3').css({position:'absolute',});});$('#work').mouseleave(function(){$('#navpara3').animate({left:'-800px'},200);});
+
+$('#option1').hover(function(){$('#navpara5').animate({left:'-50px'},200);$('#navpara5').css({position:'absolute',});$('#option1 .gadget-ico').fadeOut();});$('#option1').mouseleave(function(){$('#navpara5').animate({left:'-800px'},200); $('#option1 .gadget-ico').fadeIn();});
+$('#option2').hover(function(){$('#navpara6').animate({right:'-50px'},200);$('#navpara6').css({position:'absolute',});$('#option2 .gadget-ico').fadeOut();});$('#option2').mouseleave(function(){$('#navpara6').animate({right:'-800px'},200);$('#option2 .gadget-ico').fadeIn();});
+
+});
